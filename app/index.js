@@ -125,4 +125,11 @@ console.log(`My name is ${name1} and I am ${age1} years old`);
 //18. rest operator
 const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const [first, second, ...rest] = numbers2;
+const { name: nm, ...rest1 } = person;
+console.log(nm, rest1);
 console.log(first, second, rest);
+
+//19. spread operator
+const numbers3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const newNumbers = [...numbers3, 11, 12, 13];
+console.log(newNumbers);
