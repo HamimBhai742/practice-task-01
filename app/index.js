@@ -121,3 +121,8 @@ console.log(a1 === b1); //false
 const name1 = 'Hamim';
 const age1 = 20;
 console.log(`My name is ${name1} and I am ${age1} years old`);
+
+//18. rest operator
+const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const [first, second, ...rest] = numbers2;
+console.log(first, second, rest);
