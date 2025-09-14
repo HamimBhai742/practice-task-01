@@ -101,9 +101,18 @@ console.log(typeof person);
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const evenNumbers = numbers.filter((number) => number % 2 === 0);
 const oddNumbers = numbers.filter((number) => number % 2 !== 0);
-console.log(evenNumbers,oddNumbers);
+console.log(evenNumbers, oddNumbers);
 
 //15. map method
 const numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const squaredNumbers = numbers1.map((number) => number * number);
 console.log(squaredNumbers);
+
+//16. deffrance == and ===
+const a1 = 10;
+const b1 = '10';
+
+//== check only value
+console.log(a1 == b1); //true
+//=== check value and type
+console.log(a1 === b1); //false
