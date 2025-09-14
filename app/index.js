@@ -89,4 +89,9 @@ switch (person.age) {
     break;
 }
 
+//12. ternary operator
+person.age >= 18
+  ? console.log('person is eligible to vote')
+  : console.log('person is not eligible to vote');
+
 
