@@ -97,4 +97,8 @@ person.age >= 18
 //13. typeof operator
 console.log(typeof person);
 
-
+//14.filter method
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const evenNumbers = numbers.filter((number) => number % 2 === 0);
+const oddNumbers = numbers.filter((number) => number % 2 !== 0);
+console.log(evenNumbers,oddNumbers);
