@@ -116,3 +116,8 @@ const b1 = '10';
 console.log(a1 == b1); //true
 //=== check value and type
 console.log(a1 === b1); //false
+
+//17. template literal
+const name1 = 'Hamim';
+const age1 = 20;
+console.log(`My name is ${name1} and I am ${age1} years old`);
