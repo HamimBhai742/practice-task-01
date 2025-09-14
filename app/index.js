@@ -1,0 +1,14 @@
+//example all data type --->
+
+// 1. string
+const name = 'Hamim';
+// 2. number
+const age = 20;
+// 3. boolean
+const isMarried = false;
+// 4. null
+const car = null;
+// 5. undefined
+let test;
+
+
