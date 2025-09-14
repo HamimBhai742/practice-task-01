@@ -53,3 +53,24 @@ y = 89;
 // const --> block scope and value not change possible and re-declare not possible
 const z = 78;
 // z = 89; // not possible
+
+//10 conditional statement
+let a = 190;
+let b = 240;
+if (a > b) {
+  console.log('a is greater than b');
+} else {
+  console.log('b is greater than a');
+}
+//conditional statement with object value check
+if (person.isMarried) {
+  console.log('person is married');
+} else {
+  console.log('person is not married');
+}
+
+if (person.age >= 18) {
+  console.log('person is eligible to vote');
+} else {
+  console.log('person is not eligible to vote');
+}
