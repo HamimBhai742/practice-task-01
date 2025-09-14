@@ -41,3 +41,15 @@ while (i <= 10) {
   console.log(i);
   i++;
 }
+
+//const var let --> defference
+
+// var --> global scope,re-declare and function scope and old ,, use not recommended
+var x = 78;
+var x = 89;
+// let --> block scope and value chage possible but re-declare not possible
+let y = 78;
+y = 89;
+// const --> block scope and value not change possible and re-declare not possible
+const z = 78;
+// z = 89; // not possible
