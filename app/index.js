@@ -29,3 +29,8 @@ function add(a, b) {
   return a + b;
 }
 console.log(add(45, 85));
+
+//9. for loop
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
