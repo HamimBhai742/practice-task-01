@@ -133,3 +133,7 @@ console.log(first, second, rest);
 const numbers3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const newNumbers = [...numbers3, 11, 12, 13];
 console.log(newNumbers);
+
+//20. arrow function
+const add1 = (a, b) => a + b;
+console.log(add1(45, 85));
