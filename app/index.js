@@ -54,7 +54,7 @@ y = 89;
 const z = 78;
 // z = 89; // not possible
 
-//10 conditional statement
+//10. conditional statement
 let a = 190;
 let b = 240;
 if (a > b) {
@@ -62,6 +62,7 @@ if (a > b) {
 } else {
   console.log('b is greater than a');
 }
+
 //conditional statement with object value check
 if (person.isMarried) {
   console.log('person is married');
@@ -74,3 +75,18 @@ if (person.age >= 18) {
 } else {
   console.log('person is not eligible to vote');
 }
+
+//11. switch statement
+switch (person.age) {
+  case 18:
+    console.log('person is 18 years old');
+    break;
+  case 20:
+    console.log('person is 20 years old');
+    break;
+  default:
+    console.log('person is not 18 or 20 years old');
+    break;
+}
+
+
