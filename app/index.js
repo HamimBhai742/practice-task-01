@@ -17,12 +17,15 @@ const person = {
   age: 20,
   isMarried: false,
 };
-console.log(person)
+console.log(person);
 console.log(person.name);
 
 // 7. array
 const favColors = ['black', 'green', 'blue', 'white'];
-console.log(favColors[0])
+console.log(favColors[0]);
 
-
-
+// 8. function
+function add(a, b) {
+  return a + b;
+}
+console.log(add(45, 85));
