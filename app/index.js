@@ -11,4 +11,13 @@ const car = null;
 // 5. undefined
 let test;
 
+// 6. object
+const person = {
+  name: 'Hamim',
+  age: 20,
+  isMarried: false,
+};
+console.log(person)
+console.log(person.name);
+
 
