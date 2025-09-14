@@ -94,4 +94,7 @@ person.age >= 18
   ? console.log('person is eligible to vote')
   : console.log('person is not eligible to vote');
 
+//13. typeof operator
+console.log(typeof person);
+
 
