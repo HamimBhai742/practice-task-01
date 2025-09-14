@@ -20,4 +20,9 @@ const person = {
 console.log(person)
 console.log(person.name);
 
+// 7. array
+const favColors = ['black', 'green', 'blue', 'white'];
+console.log(favColors[0])
+
+
 
